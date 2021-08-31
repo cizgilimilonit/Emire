@@ -1,0 +1,14 @@
+def coronatest(a):
+    a = input("Semptomlarınızı lütfen aralara virgül ekleyerek giriniz: ")
+    a = a.split(", ")
+    for i in a:
+        if i == "ateş":
+            sonuc = "Korona olabilirsiniz lütfen bir test alın"
+            break
+        elif i == "öksürük":
+            sonuc = "Korona olabilirsiniz lütfen bir test alın"
+            break
+        else:
+            sonuc = ("Korona için endişelenmenizi gerektirecek bir sebep yok")
+    print(sonuc)
+            
